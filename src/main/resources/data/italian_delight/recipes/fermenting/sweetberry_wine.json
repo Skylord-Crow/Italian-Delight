@@ -1,0 +1,27 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "experience": 0.6,
+  "fermentingtime": 12000,
+  "fluiditem": {
+    "item": "minecraft:water_bucket"
+  },
+  "ingredients": [
+    {
+      "item": "italian_delight:grapes"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "italian_delight:sweetberry_wine"
+  },
+  "recipe_book_tab": "drinks",
+  "temperature": 3
+}

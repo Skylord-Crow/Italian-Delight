@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "age=0": {"model": "italian_delight:block/grape0"},
+    "age=1": {"model": "italian_delight:block/grape0"},
+    "age=2": {"model": "italian_delight:block/grape2"},
+    "age=3": {"model": "italian_delight:block/grape3-5"},
+    "age=4": {"model": "italian_delight:block/grape3-5"},
+    "age=5": {"model": "italian_delight:block/grape3-5"},
+    "age=6": {"model": "italian_delight:block/grape6"},
+    "age=7": {"model": "italian_delight:block/grape7"}
+  }
+}

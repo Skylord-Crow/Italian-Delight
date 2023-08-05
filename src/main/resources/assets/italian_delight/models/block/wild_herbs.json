@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "italian_delight:blocks/wild_herbs"
+  },
+  "render_type": "cutout"
+}

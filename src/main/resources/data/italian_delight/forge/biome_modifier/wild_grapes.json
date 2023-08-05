@@ -1,0 +1,6 @@
+{
+  "type": "italian_delight:add_features_by_filter",
+  "allowed_biomes": "#forge:is_hot/overworld",
+  "features": "italian_delight:patch_wild_grapes",
+  "step": "vegetal_decoration"
+}

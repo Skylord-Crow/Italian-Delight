@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "italian_delight:blocks/wood_oven_top",
+    "front": "italian_delight:blocks/wood_oven_face",
+    "side": "italian_delight:blocks/wood_oven_sides"
+  }
+}

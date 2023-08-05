@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "farmersdelight:rice"
+    },
+    {
+      "item": "brewinandchewin:flaxen_cheese_wedge"
+    },
+    {
+      "item": "farmersdelight:tomato_sauce"
+    }
+  ],
+  "result": {
+    "item": "italian_delight:risotto_al_sugo"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "experience": 0.2,
+  "cookingtime": 200
+}

@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "italian_delight:pizza_al_prosciutto"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+      "item": "italian_delight:pizza_al_prosciutto_slice"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

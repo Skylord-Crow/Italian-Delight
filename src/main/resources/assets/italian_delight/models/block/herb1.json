@@ -1,0 +1,8 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "italian_delight:blocks/herbs_stage1",
+    "particle": "italian_delight:blocks/herbs_stage1"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,27 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "experience": 0.6,
+  "fermentingtime": 12000,
+  "fluiditem": {
+    "item": "minecraft:lava_bucket"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    }
+  ],
+  "result": {
+    "item": "italian_delight:hellhound_wine"
+  },
+  "recipe_book_tab": "drinks",
+  "temperature": 3
+}
