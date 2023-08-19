@@ -26,6 +26,7 @@ public class Configuration {
         CHANCE_WILD_HERBS =
                 COMMON_BUILDER.comment("Chance of generating clusters. Smaller value = more frequent.").defineInRange("chance", 100, 0, Integer.MAX_VALUE);
         COMMON_BUILDER.pop();
+        COMMON_CONFIG = COMMON_BUILDER.build();
 
     }
 }

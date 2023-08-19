@@ -1,6 +1,6 @@
 {
-  "type": "italian_delight:add_features_by_filter",
-  "allowed_biomes": "#forge:is_hot/overworld",
+  "type": "forge:add_features",
+  "biomes": "minecraft:plains",
   "features": "italian_delight:patch_wild_herbs",
   "step": "vegetal_decoration"
 }

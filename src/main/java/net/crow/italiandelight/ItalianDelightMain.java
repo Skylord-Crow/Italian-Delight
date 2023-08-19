@@ -2,6 +2,7 @@ package net.crow.italiandelight;
 
 import com.mojang.logging.LogUtils;
 import net.crow.italiandelight.init.*;
+import net.crow.italiandelight.world.feature.ModPlacedFeatures;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
@@ -68,6 +69,9 @@ public class ItalianDelightMain
 
         // Register the Deferred Register to the mod event bus so configs get registered
         ModConfiguredFeatures.register(modEventBus);
+
+        //Register the Deferred Register to the mod event bus so place features get registered
+        ModPlacedFeatures.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

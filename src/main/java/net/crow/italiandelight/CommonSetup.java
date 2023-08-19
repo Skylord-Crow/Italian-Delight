@@ -1,7 +1,7 @@
 package net.crow.italiandelight;
 
 import net.crow.italiandelight.init.ItemInit;
-import net.crow.italiandelight.world.WildCropGen;
+//import net.crow.italiandelight.world.WildCropGen;
 import net.minecraft.world.level.block.ComposterBlock;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 
@@ -10,7 +10,7 @@ public class CommonSetup {
     public static void init(final FMLCommonSetupEvent event) {
         event.enqueueWork(() -> {
             registerCompostables();
-            WildCropGen.registerWildCropGeneration();
+            //WildCropGen.registerWildCropGeneration();
         });
     }
 
