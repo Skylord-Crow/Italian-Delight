@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "servings=3": {
+      "model": "italian_delight:block/pizza_funghi"
+    },
+    "servings=2": {
+      "model": "italian_delight:block/pizza_funghi_slice1"
+    },
+    "servings=1": {
+      "model": "italian_delight:block/pizza_funghi_slice2"
+    },
+    "servings=0": {
+      "model": "italian_delight:block/pizza_funghi_slice3"
+    }
+  }
+}

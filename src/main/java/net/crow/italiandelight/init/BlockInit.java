@@ -1,8 +1,10 @@
 package net.crow.italiandelight.init;
 
+import net.crow.italiandelight.blocks.pizza.PizzaDiavolaBlock;
+import net.crow.italiandelight.blocks.pizza.PizzaFunghiBlock;
+import net.crow.italiandelight.blocks.pizza.PizzaDanteBlock;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
-import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -11,7 +13,6 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SaplingBlock;
-import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockBehaviour.*;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Material;
@@ -21,7 +22,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 import net.crow.italiandelight.ItalianDelightMain;
 import net.crow.italiandelight.blocks.*;
-import net.crow.italiandelight.blocks.pizza.PizzaAlProsciuttoBlock;
+import net.crow.italiandelight.blocks.pizza.PizzaProsciuttoBlock;
 import net.crow.italiandelight.world.feature.tree.OliveTreeGrower;
 import vectorwing.farmersdelight.common.block.WildCropBlock;
 
@@ -95,9 +96,11 @@ public class BlockInit {
     }, ItalianDelightMain.CREATIVE_TAB);
 
 // Pizza Stuff
-    public static final RegistryObject<Block> PIZZA_AL_PROSCIUTTO = BLOCKS.register("pizza_al_prosciutto", () -> new PizzaAlProsciuttoBlock(Properties.copy(Blocks.CAKE)));
-
-
+    public static final RegistryObject<Block> PIZZA_PROSCIUTTO = BLOCKS.register("pizza_prosciutto", () -> new PizzaProsciuttoBlock(Properties.copy(Blocks.CAKE)));
+    public static final RegistryObject<Block> PIZZA_FUNGHI = BLOCKS.register("pizza_funghi", () -> new PizzaFunghiBlock(Properties.copy(Blocks.CAKE)));
+    public static final RegistryObject<Block> PIZZA_MARGHERITA = BLOCKS.register("pizza_margherita", () -> new PizzaDanteBlock(Properties.copy(Blocks.CAKE)));
+    public static final RegistryObject<Block> PIZZA_DANTE = BLOCKS.register("pizza_dante", () -> new PizzaDanteBlock(Properties.copy(Blocks.CAKE)));
+    public static final RegistryObject<Block> PIZZA_DIAVOLA = BLOCKS.register("pizza_diavola", () -> new PizzaDiavolaBlock(Properties.copy(Blocks.CAKE)));
 // Oven Stuff
     public static final RegistryObject<Block> WOODEN_OVEN = registerBlock("wooden_oven", () -> new WoodenOven(Properties.copy(Blocks.SMOKER)), ItalianDelightMain.CREATIVE_TAB);
 

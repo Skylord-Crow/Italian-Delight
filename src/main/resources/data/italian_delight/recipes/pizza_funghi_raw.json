@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:brown_mushroom"
+    },
+    "1": {
+      "item": "minecraft:brown_mushroom"
+    },
+    "2": {
+      "item": "minecraft:brown_mushroom"
+    },
+    "4": {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    "7": {
+      "item": "farmersdelight:wheat_dough"
+    }
+  },
+  "result": {
+    "item": "italian_delight:pizza_funghi_raw",
+    "count": 1
+  }
+}

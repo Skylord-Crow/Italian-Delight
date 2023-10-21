@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "italian_delight:salami_slice"
+    },
+    "3": {
+      "item": "brewinandchewin:flaxen_cheese_wedge"
+    },
+    "4": {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    "5": {
+      "item": "brewinandchewin:flaxen_cheese_wedge"
+    },
+    "7": {
+      "item": "farmersdelight:wheat_dough"
+    }
+  },
+  "result": {
+    "item": "italian_delight:pizza_diavola_raw",
+    "count": 1
+  }
+}

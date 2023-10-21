@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "experience": 1,
+  "cookingtime": 350,
+  "ingredient": {
+    "item": "italian_delight:pizza_margherita_raw"
+  },
+  "result": "italian_delight:pizza_margherita"
+}

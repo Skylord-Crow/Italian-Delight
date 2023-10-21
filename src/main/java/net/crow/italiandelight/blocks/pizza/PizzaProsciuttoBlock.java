@@ -16,8 +16,8 @@ import net.crow.italiandelight.init.ItemInit;
 import umpaz.brewinandchewin.common.block.PizzaBlock;
 
 
-public class PizzaAlProsciuttoBlock extends PizzaBlock {
-    public PizzaAlProsciuttoBlock(BlockBehaviour.Properties properties) {
+public class PizzaProsciuttoBlock extends PizzaBlock {
+    public PizzaProsciuttoBlock(BlockBehaviour.Properties properties) {
         super(properties);
         this.registerDefaultState((BlockState)((BlockState)this.stateDefinition.any()).setValue(SERVINGS, 3));
     }
@@ -32,12 +32,12 @@ public class PizzaAlProsciuttoBlock extends PizzaBlock {
     private InteractionResult takeServing(Level level, BlockPos pos, BlockState state, Player player, InteractionHand handIn) {
         int servings = (Integer)state.getValue(SERVINGS);
         ItemStack heldStack = player.getItemInHand(handIn);
-        if (!heldStack.isEmpty() && !heldStack.getItem().equals(ItemInit.PIZZA_AL_PROSCIUTTO_SLICE.get())) {
-            popResource(level, pos, new ItemStack((ItemLike)ItemInit.PIZZA_AL_PROSCIUTTO_SLICE.get(), 1));
-        } else if (heldStack.getItem().equals(ItemInit.PIZZA_AL_PROSCIUTTO_SLICE.get()) && heldStack.getCount() < heldStack.getMaxStackSize()) {
+        if (!heldStack.isEmpty() && !heldStack.getItem().equals(ItemInit.PIZZA_PROSCIUTTO_SLICE.get())) {
+            popResource(level, pos, new ItemStack((ItemLike)ItemInit.PIZZA_PROSCIUTTO_SLICE.get(), 1));
+        } else if (heldStack.getItem().equals(ItemInit.PIZZA_PROSCIUTTO_SLICE.get()) && heldStack.getCount() < heldStack.getMaxStackSize()) {
             heldStack.setCount(heldStack.getCount() + 1);
         } else {
-            player.setItemInHand(handIn, new ItemStack((ItemLike)ItemInit.PIZZA_AL_PROSCIUTTO_SLICE.get()));
+            player.setItemInHand(handIn, new ItemStack((ItemLike)ItemInit.PIZZA_PROSCIUTTO_SLICE.get()));
         }
 
         level.playSound((Player)null, pos, SoundEvents.SLIME_BLOCK_PLACE, SoundSource.BLOCKS, 1.0F, 1.0F);

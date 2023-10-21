@@ -2,13 +2,13 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "italian_delight:pizza_al_prosciutto"
+      "item": "italian_delight:pizza_prosciutto"
     }
   ],
   "result": [
     {
       "count": 4,
-      "item": "italian_delight:pizza_al_prosciutto_slice"
+      "item": "italian_delight:pizza_prosciutto_slice"
     }
   ],
   "tool": {

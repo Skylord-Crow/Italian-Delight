@@ -1,0 +1,26 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "ingredients": [
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    }
+  ],
+  "result": {
+    "item": "italian_delight:salami_raw"
+  },
+  "container": {
+    "item": "minecraft:dried_kelp"
+  },
+  "liquid": {
+    "item": "italian_delight:sweet_berry_wine"
+  },
+  "experience": 0.6,
+  "cookingtime": 12000,
+  "temperature": 3
+}

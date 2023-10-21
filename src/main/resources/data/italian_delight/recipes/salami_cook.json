@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "experience": 1,
+  "cookingtime": 1200,
+  "ingredient": {
+    "item": "italian_delight:salami_raw"
+  },
+  "result": "italian_delight:salami"
+}

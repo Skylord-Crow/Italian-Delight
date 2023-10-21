@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "italian_delight:items/pizza_margherita_slice"
+  }
+}
