@@ -21,7 +21,7 @@ public class FoodValues {
     public static final FoodProperties SALAMI = ((new FoodProperties.Builder().nutrition(4).saturationMod(0.7f).meat().build()));
     public static final FoodProperties SALAMI_SLICE = ((new FoodProperties.Builder().nutrition(1).saturationMod(0.5f).build()));
     public static final FoodProperties PANETTONE = ((new FoodProperties.Builder().nutrition(4).saturationMod(0.5f).build()));
-    public static final FoodProperties PANETONNE_SLICE = ((new FoodProperties.Builder().nutrition(3).saturationMod(0.3f).build()));
+    public static final FoodProperties PANETONNE_SLICE = ((new FoodProperties.Builder().nutrition(1).saturationMod(0.3f).build()));
     public static final FoodProperties PANDORO_DOUGH = ((new FoodProperties.Builder().nutrition(1).saturationMod(0.1f).build()));
     public static final FoodProperties PANDORO_SLICE = ((new FoodProperties.Builder().nutrition(3).saturationMod(0.3f).build()));
     // Dishes

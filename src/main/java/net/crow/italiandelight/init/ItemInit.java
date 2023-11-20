@@ -41,7 +41,7 @@ public class ItemInit {
     public static final RegistryObject<Item> GLOWBERRY_WINE = ITEMS.register("glowberry_wine", () -> new BoozeItem(1, 4, foodItem(FoodValues.GLOWBERRY_WINE)));
     public static final RegistryObject<Item> ROSE_WINE = ITEMS.register("rose_wine", () -> new BoozeItem(1, 3, foodItem(FoodValues.ROSE_WINE)));
     public static final RegistryObject<Item> HELLHOUND_WINE = ITEMS.register("hellhound_wine", () -> new BoozeItem(2, 5, foodItem(FoodValues.HELLHOUND_WINE).tab(ItalianDelightMain.CREATIVE_TAB)));
-    public static final RegistryObject<Item> DRAGONBORN_WINE = ITEMS.register("dragonborn_wine", () -> new BoozeItem(3, 10, foodItem(FoodValues.DRAGONBORN_WINE)));
+    public static final RegistryObject<Item> DRAGONBORN_WINE = ITEMS.register("dragonborn_wine", () -> new BoozeItem(2, 5, foodItem(FoodValues.DRAGONBORN_WINE)));
     public static final RegistryObject<Item> HASTING_WINE = ITEMS.register("hasting_wine", () -> new BoozeItem(2, 5, foodItem(FoodValues.HASTING_WINE)));
     public static final RegistryObject<Item> SWEETBERRY_WINE = ITEMS.register("sweetberry_wine", () -> new BoozeItem(1, 5, foodItem(FoodValues.SWEETBERRY_WINE)));
     public static final RegistryObject<Item> SPUMANTE = ITEMS.register("spumante", () -> new BoozeItem(1, 3,foodItem(FoodValues.SPUMANTE)));
