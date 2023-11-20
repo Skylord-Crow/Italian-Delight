@@ -53,7 +53,7 @@ public class BlockInit {
     public static final RegistryObject<Block> OLIVE_LOG = registerBlock("olive_log", () -> new OliveLogBlock(Properties.of(Material.WOOD)), ItalianDelightMain.CREATIVE_TAB);
     public static final RegistryObject<Block> OLIVE_WOOD = registerBlock("olive_wood", () -> new OliveLogBlock(Properties.of(Material.WOOD)), ItalianDelightMain.CREATIVE_TAB);
     public static final RegistryObject<Block> STRIPPED_OLIVE_LOG = registerBlock("stripped_olive_log", () -> new OliveLogBlock(Properties.of(Material.WOOD)), ItalianDelightMain.CREATIVE_TAB);
-    public static final RegistryObject<Block> STRIPPED_OLIVE_WOOD = registerBlock("stripped_olive_wood", () -> new    OliveLogBlock(Properties.of(Material.WOOD)), ItalianDelightMain.CREATIVE_TAB);
+    public static final RegistryObject<Block> STRIPPED_OLIVE_WOOD = registerBlock("stripped_olive_wood", () -> new OliveLogBlock(Properties.of(Material.WOOD)), ItalianDelightMain.CREATIVE_TAB);
     public static final RegistryObject<Block> OLIVE_LEAVES = registerBlock("olive_leaves", () -> new OliveLeavesBlock(Properties.copy(Blocks.OAK_LEAVES)){
         //Makes it flammable
         @Override
