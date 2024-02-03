@@ -50,10 +50,10 @@ public class BlockInit {
 
     //Olive Stuff
     public static final RegistryObject<Block> OLIVE_SAPLING = registerBlock("olive_sapling", () -> new SaplingBlock(new OliveTreeGrower(), Properties.copy(Blocks.OAK_SAPLING)), ItalianDelightMain.CREATIVE_TAB);
-    public static final RegistryObject<Block> OLIVE_LOG = registerBlock("olive_log", () -> new OliveLogBlock(Properties.of(Material.WOOD)), ItalianDelightMain.CREATIVE_TAB);
-    public static final RegistryObject<Block> OLIVE_WOOD = registerBlock("olive_wood", () -> new OliveLogBlock(Properties.of(Material.WOOD)), ItalianDelightMain.CREATIVE_TAB);
-    public static final RegistryObject<Block> STRIPPED_OLIVE_LOG = registerBlock("stripped_olive_log", () -> new OliveLogBlock(Properties.of(Material.WOOD)), ItalianDelightMain.CREATIVE_TAB);
-    public static final RegistryObject<Block> STRIPPED_OLIVE_WOOD = registerBlock("stripped_olive_wood", () -> new OliveLogBlock(Properties.of(Material.WOOD)), ItalianDelightMain.CREATIVE_TAB);
+    public static final RegistryObject<Block> OLIVE_LOG = registerBlock("olive_log", () -> new OliveLogBlock(Properties.copy(Blocks.OAK_LOG)), ItalianDelightMain.CREATIVE_TAB);
+    public static final RegistryObject<Block> OLIVE_WOOD = registerBlock("olive_wood", () -> new OliveLogBlock(Properties.copy(Blocks.OAK_WOOD)), ItalianDelightMain.CREATIVE_TAB);
+    public static final RegistryObject<Block> STRIPPED_OLIVE_LOG = registerBlock("stripped_olive_log", () -> new OliveLogBlock(Properties.copy(Blocks.STRIPPED_OAK_LOG)), ItalianDelightMain.CREATIVE_TAB);
+    public static final RegistryObject<Block> STRIPPED_OLIVE_WOOD = registerBlock("stripped_olive_wood", () -> new OliveLogBlock(Properties.copy(Blocks.STRIPPED_OAK_WOOD)), ItalianDelightMain.CREATIVE_TAB);
     public static final RegistryObject<Block> OLIVE_LEAVES = registerBlock("olive_leaves", () -> new OliveLeavesBlock(Properties.copy(Blocks.OAK_LEAVES)){
         //Makes it flammable
         @Override
@@ -61,7 +61,7 @@ public class BlockInit {
             return true;
         }
 
-        //How Flammable is it?
+        //How Flammable is it?z
         @Override
         public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
             return 30;
@@ -74,7 +74,7 @@ public class BlockInit {
         }
 
     }, ItalianDelightMain.CREATIVE_TAB);
-    public static final RegistryObject<Block> OLIVE_PLANKS = registerBlock("olive_planks", () -> new Block(Properties.of(Material.WOOD)) {
+    public static final RegistryObject<Block> OLIVE_PLANKS = registerBlock("olive_planks", () -> new Block(Properties.copy(Blocks.OAK_PLANKS)) {
         //Makes it flammable
         @Override
         public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
