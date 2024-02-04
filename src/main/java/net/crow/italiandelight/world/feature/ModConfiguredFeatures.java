@@ -51,7 +51,7 @@ public class ModConfiguredFeatures {
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> WILD_GRAPES =
             CONFIGURED_FEATURES.register("wild_grapes", () -> new ConfiguredFeature<>(Feature.FLOWER,
-                    new RandomPatchConfiguration(32,6,2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                    new RandomPatchConfiguration(64,10,2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
                             new SimpleBlockConfiguration(BlockStateProvider.simple(BlockInit.WILD_GRAPES.get()))))));
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> WILD_HERBS =
