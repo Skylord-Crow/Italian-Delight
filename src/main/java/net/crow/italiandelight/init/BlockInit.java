@@ -10,9 +10,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.SaplingBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour.*;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Material;
@@ -94,6 +92,13 @@ public class BlockInit {
         }
 
     }, ItalianDelightMain.CREATIVE_TAB);
+    public static final RegistryObject<Block> OLIVE_FENCE = registerBlock("olive_fence", () -> new FenceBlock(Properties.copy(Blocks.OAK_FENCE)), ItalianDelightMain.CREATIVE_TAB);
+    public static final RegistryObject<Block> OLIVE_FENCE_GATE = registerBlock("olive_fence_gate", () -> new FenceGateBlock(Properties.copy(Blocks.OAK_FENCE_GATE)), ItalianDelightMain.CREATIVE_TAB);
+    public static final RegistryObject<Block> OLIVE_DOOR = registerBlock("olive_door", () -> new DoorBlock(Properties.copy(Blocks.OAK_DOOR)), ItalianDelightMain.CREATIVE_TAB);
+    public static final RegistryObject<Block> OLIVE_TRAPDOOR = registerBlock("olive_trapdoor", () -> new TrapDoorBlock(Properties.copy(Blocks.OAK_TRAPDOOR)), ItalianDelightMain.CREATIVE_TAB);
+    public static final RegistryObject<Block> OLIVE_PRESSURE_PLATE = registerBlock("olive_pressure_plate", () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, Properties.copy(Blocks.OAK_PRESSURE_PLATE)), ItalianDelightMain.CREATIVE_TAB);
+    public static final RegistryObject<Block> OLIVE_BUTTON = registerBlock("olive_button", () -> new WoodButtonBlock(Properties.copy(Blocks.OAK_BUTTON)), ItalianDelightMain.CREATIVE_TAB);
+    public static final RegistryObject<Block> OLIVE_SLAB = registerBlock("olive_slab", () -> new SlabBlock(Properties.copy(Blocks.OAK_SLAB)), ItalianDelightMain.CREATIVE_TAB);
 
 // Pizza Stuff
     public static final RegistryObject<Block> PIZZA_PROSCIUTTO = BLOCKS.register("pizza_prosciutto", () -> new PizzaProsciuttoBlock(Properties.copy(Blocks.CAKE)));

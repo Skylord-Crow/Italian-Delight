@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "italian_delight:block/olive_pressure_plate"
+    },
+    "powered=true": {
+      "model": "italian_delight:block/olive_pressure_plate_down"
+    }
+  }
+}

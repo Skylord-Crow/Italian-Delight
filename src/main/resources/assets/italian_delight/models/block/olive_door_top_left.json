@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "textures": {
+    "bottom": "italian_delight:blocks/olive_door_bottom",
+    "top": "italian_delight:blocks/olive_door_top"
+  }
+}
