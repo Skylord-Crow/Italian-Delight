@@ -25,6 +25,8 @@ import vectorwing.farmersdelight.common.block.WildCropBlock;
 
 import java.util.function.Supplier;
 
+import static net.minecraft.world.level.block.Blocks.OAK_PLANKS;
+
 @SuppressWarnings("unused")
 public class BlockInit {
 
@@ -71,7 +73,7 @@ public class BlockInit {
         }
 
     }, ItalianDelightMain.CREATIVE_TAB);
-    public static final RegistryObject<Block> OLIVE_PLANKS = registerBlock("olive_planks", () -> new Block(Properties.copy(Blocks.OAK_PLANKS)) {
+    public static final RegistryObject<Block> OLIVE_PLANKS = registerBlock("olive_planks", () -> new Block(Properties.copy(OAK_PLANKS)) {
         //Makes it flammable
         @Override
         public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
@@ -98,6 +100,7 @@ public class BlockInit {
     public static final RegistryObject<Block> OLIVE_PRESSURE_PLATE = registerBlock("olive_pressure_plate", () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, Properties.copy(Blocks.OAK_PRESSURE_PLATE)), ItalianDelightMain.CREATIVE_TAB);
     public static final RegistryObject<Block> OLIVE_BUTTON = registerBlock("olive_button", () -> new WoodButtonBlock(Properties.copy(Blocks.OAK_BUTTON)), ItalianDelightMain.CREATIVE_TAB);
     public static final RegistryObject<Block> OLIVE_SLAB = registerBlock("olive_slab", () -> new SlabBlock(Properties.copy(Blocks.OAK_SLAB)), ItalianDelightMain.CREATIVE_TAB);
+    public static final RegistryObject<Block> OLIVE_STAIRS = registerBlock("olive_stairs", () -> new StairBlock(OAK_PLANKS.defaultBlockState(), Properties.copy(OAK_PLANKS)), ItalianDelightMain.CREATIVE_TAB);
 
 // Pizza Stuff
     public static final RegistryObject<Block> PIZZA_PROSCIUTTO = BLOCKS.register("pizza_prosciutto", () -> new PizzaProsciuttoBlock(Properties.copy(Blocks.CAKE)));

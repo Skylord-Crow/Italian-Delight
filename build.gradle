@@ -1,7 +1,7 @@
 buildscript {
     repositories {
         maven { url = 'https://maven.minecraft.forge.net'}
-        maven { url = "https://repo.spongepowered.org/repository/maven-releases"}
+        maven { url = 'https://repo.spongepowered.org/repository/maven-releases'}
         mavenCentral()
     }
     dependencies {

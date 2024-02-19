@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "italian_delight:blocks/olive_planks",
+    "side": "italian_delight:blocks/olive_planks",
+    "top": "italian_delight:blocks/olive_planks"
+  }
+}

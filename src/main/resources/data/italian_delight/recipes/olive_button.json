@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "italian_delight:olive_planks"
+    }
+  ],
+  "result": {
+    "item": "italian_delight:olive_button"
+  }
+}
